@@ -1,10 +1,10 @@
-
+let size  = 8;
 let board = '';
 
-for (let j = 0; j < 8; j++) {
+for (let j = 0; j < size; j++) {
     if (j % 2 == 0) {
         //board = '';
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < size; i++) {
             if (i % 2 == 0) {
                 board += '#';
             } else {
@@ -14,7 +14,7 @@ for (let j = 0; j < 8; j++) {
         board += '\n';
     } else {
         //board = '#';
-        for (let i = 0; i < 8; i++) {
+        for (let i = 0; i < size; i++) {
             if (i % 2 == 0) {
                 board += ' ';
             } else {
