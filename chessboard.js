@@ -11,9 +11,7 @@ for (let j = 0; j < size; j++) {
                 board += ' ';
             }
         }
-        board += '\n';
     } else {
-        //board = '#';
         for (let i = 0; i < size; i++) {
             if (i % 2 == 0) {
                 board += ' ';
@@ -21,7 +19,7 @@ for (let j = 0; j < size; j++) {
                 board += '#';
             }
         }
-        board += '\n';
     }
+    board += '\n';
 }
 console.log(board);
